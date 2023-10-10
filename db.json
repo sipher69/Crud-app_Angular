@@ -42,64 +42,16 @@
       "id": 3
     },
     {
-      "firstName": "we",
-      "lastName": "ew",
-      "email": "d@ds",
-      "dob": "2023-10-02T21:00:00.000Z",
-      "gender": "",
-      "education": "",
-      "company": "",
-      "experience": "",
-      "package": "",
+      "firstName": "saif ",
+      "lastName": "jilani",
+      "email": "jilani@ds.com",
+      "dob": "+012232-01-03T21:00:00.000Z",
+      "gender": "male",
+      "education": "Post Graduate",
+      "company": "Google",
+      "experience": 12,
+      "package": 21,
       "id": 4
-    },
-    {
-      "firstName": "ewewwe",
-      "lastName": "",
-      "email": "",
-      "dob": "",
-      "gender": "",
-      "education": "",
-      "company": "",
-      "experience": "",
-      "package": "",
-      "id": 6
-    },
-    {
-      "firstName": "ewew",
-      "lastName": "",
-      "email": "",
-      "dob": "",
-      "gender": "",
-      "education": "",
-      "company": "",
-      "experience": "",
-      "package": "",
-      "id": 7
-    },
-    {
-      "firstName": "ewew",
-      "lastName": "",
-      "email": "",
-      "dob": "",
-      "gender": "",
-      "education": "",
-      "company": "",
-      "experience": "",
-      "package": "",
-      "id": 8
-    },
-    {
-      "firstName": "wewewewe",
-      "lastName": "",
-      "email": "",
-      "dob": "",
-      "gender": "",
-      "education": "",
-      "company": "",
-      "experience": "",
-      "package": "",
-      "id": 9
     }
   ]
 }

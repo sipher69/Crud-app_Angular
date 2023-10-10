@@ -7,6 +7,7 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { DialogRef } from '@angular/cdk/dialog';
+import { MainService } from './main/main.service';
 
 @Component({
   selector: 'app-root',
@@ -34,7 +35,8 @@ export class AppComponent implements OnInit {
 
   constructor(
     private _dialog: MatDialog,
-    private _empService: EmployeeService
+    private _empService: EmployeeService,
+    private _mainService: MainService
   ) {}
 
   openAddEditEmpForm() {
@@ -74,7 +76,7 @@ export class AppComponent implements OnInit {
   deleteEmployee(id: number) {
     this._empService.deleteEmployee(id).subscribe({
       next: (res) => {
-        alert('Employee deleted');
+        this._mainService.openSnackBar('Employee deleted', 'done');
         this.getEmployeesList();
       },
       error: console.log,
@@ -82,8 +84,15 @@ export class AppComponent implements OnInit {
   }
 
   openEditForm(data: any) {
-    this._dialog.open(EmpAddEditComponent, {
+    const dialogRef = this._dialog.open(EmpAddEditComponent, {
       data,
+    });
+    dialogRef.afterClosed().subscribe({
+      next: (val) => {
+        if (val) {
+          this.getEmployeesList();
+        }
+      },
     });
   }
 }

@@ -37,7 +37,7 @@
       <mat-radio-group aria-label="Select an option" formControlName="gender">
         <mat-label><b>Gender</b></mat-label>
         <mat-radio-button value="male">Male</mat-radio-button>
-        <mat-radio-button value="female">Female 2</mat-radio-button>
+        <mat-radio-button value="female">Female</mat-radio-button>
       </mat-radio-group>
     </div>
 
@@ -74,7 +74,7 @@
 
     <div mat-dialog-actions class="action">
       <button mat-raised-button type="button" [mat-dialog-close]="false">Cancel</button>
-      <button mat-raised-button color="primary" type="submit">Save</button>
+      <button mat-raised-button color="primary" type="submit">{{data ? 'Update': 'Save'}}</button>
     </div>
   </div>
 
