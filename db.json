@@ -1,0 +1,105 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employess": [
+    {
+      "firstName": "we",
+      "lastName": "ew",
+      "email": "ds@sd.com",
+      "dob": "2023-09-30T21:00:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "",
+      "experience": 232,
+      "package": 12121,
+      "id": 2
+    },
+    {
+      "firstName": "as",
+      "lastName": "kdsm",
+      "email": "wew",
+      "dob": "2023-10-01T21:00:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "",
+      "experience": 2,
+      "package": 4,
+      "id": 3
+    },
+    {
+      "firstName": "we",
+      "lastName": "ew",
+      "email": "d@ds",
+      "dob": "2023-10-02T21:00:00.000Z",
+      "gender": "",
+      "education": "",
+      "company": "",
+      "experience": "",
+      "package": "",
+      "id": 4
+    },
+    {
+      "firstName": "ewewwe",
+      "lastName": "",
+      "email": "",
+      "dob": "",
+      "gender": "",
+      "education": "",
+      "company": "",
+      "experience": "",
+      "package": "",
+      "id": 6
+    },
+    {
+      "firstName": "ewew",
+      "lastName": "",
+      "email": "",
+      "dob": "",
+      "gender": "",
+      "education": "",
+      "company": "",
+      "experience": "",
+      "package": "",
+      "id": 7
+    },
+    {
+      "firstName": "ewew",
+      "lastName": "",
+      "email": "",
+      "dob": "",
+      "gender": "",
+      "education": "",
+      "company": "",
+      "experience": "",
+      "package": "",
+      "id": 8
+    },
+    {
+      "firstName": "wewewewe",
+      "lastName": "",
+      "email": "",
+      "dob": "",
+      "gender": "",
+      "education": "",
+      "company": "",
+      "experience": "",
+      "package": "",
+      "id": 9
+    }
+  ]
+}
